@@ -45,13 +45,13 @@ namespace _1_3buttons
             bool xChecked = double.TryParse(textBox1.Text, out x);
             bool yChecked = double.TryParse(textBox2.Text, out y);
             
-            if (xChecked && yChecked)
+            if (xChecked && yChecked) //Отлично
             {
                 return true;
             }
             else
             {
-                MessageBox.Show("Аргументы должны быть числами");
+                MessageBox.Show("Аргументы должны быть числами"); //Отлично
                 return false;
             }
         }

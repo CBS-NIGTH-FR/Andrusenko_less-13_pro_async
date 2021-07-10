@@ -35,8 +35,8 @@ namespace _2_string_callbackk
 
         static void CallBack(IAsyncResult asyncResult)
         {
-            Console.WriteLine("\nСтарт Callback метода во вторичном потоке:", Thread.CurrentThread.ManagedThreadId);
-            Console.WriteLine("Стока, которую выдал Callback метод: " + asyncResult.AsyncState);
+            Console.WriteLine("\nСтарт Callback метода во вторичном потоке:", Thread.CurrentThread.ManagedThreadId); //Отлично
+            Console.WriteLine("Стока, которую выдал Callback метод: " + asyncResult.AsyncState); //Отлично
         }
     }
 }
